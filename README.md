@@ -40,3 +40,16 @@ Agiliza el desarrollo de software.
 Facilita el trabajo en equipo.
 
 En general, la programación orientada a objetos se enfoca en la creación de objetos que interactúan entre sí para lograr una funcionalidad específica, utilizando una sintaxis y estructura de programación que se centra en los objetos como unidades fundamentales de la programación.
+
+## EJERCICIO 3
+¿Qué es la visibilidad de una variable o un método? ¿Qué tipos hay? ¿Cuándo debe utilizarse cada tipo?
+
+La visibilidad de una variable o un método se refiere al alcance que tiene ese elemento en el código. En la programación orientada a objetos, existen tres tipos de visibilidad:
+
+Pública (public): Los elementos públicos pueden ser accedidos desde cualquier parte del programa, ya sea desde dentro de la clase en la que están definidos o desde fuera de ella. Se recomienda utilizar este tipo de visibilidad para aquellos elementos que deben ser accesibles desde otros objetos o clases.
+
+Privada (private): Los elementos privados sólo pueden ser accedidos desde dentro de la clase en la que están definidos. Este tipo de visibilidad se utiliza para proteger los elementos de una clase y evitar que otros objetos o clases los modifiquen de manera inapropiada.
+
+Protegida (protected): Los elementos protegidos sólo pueden ser accedidos desde dentro de la clase en la que están definidos y desde aquellas clases que heredan de ella. Se utiliza este tipo de visibilidad cuando se quiere permitir que las clases hijas accedan a ciertos elementos de la clase padre, es decir se utiliza en la herencia
+
+La elección del tipo de visibilidad depende de las necesidades específicas del programa. Por lo tanto, se debe utilizar la visibilidad pública sólo para aquellos elementos que necesitan ser accesibles desde otras clases, mientras que se debe utilizar la visibilidad privada para proteger el estado interno de una clase. La visibilidad protegida se utiliza en casos especiales, cuando se quiere permitir que las clases hijas accedan a ciertos elementos de la clase padre.
