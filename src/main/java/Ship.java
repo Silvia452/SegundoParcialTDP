@@ -70,5 +70,28 @@ public class Ship {
         }
         return false;
     }
+
+    public boolean get_shot(Point shot_point) {
+        if (startPoint.getX() == endPoint.getX()) {
+            int startY = startPoint.getY();
+            int endY = endPoint.getY();
+            if (shot_point.getX() == startPoint.getX() && shot_point.getY() >= startY && shot_point.getY() <= endY) {
+                hits++;
+                return true;
+            }
+        } else if (startPoint.getY() == endPoint.getY()) {
+            int startX = startPoint.getX();
+            int endX = endPoint.getX();
+            if (shot_point.getY() == startPoint.getY() && shot_point.getX() >= startX && shot_point.getX() <= endX) {
+                hits++;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean is_sunk() {
+        return hits >= size;
+    }
 }
 
