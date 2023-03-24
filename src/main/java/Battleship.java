@@ -1,2 +1,32 @@
-public class Battleship extends Ship{
+public class Battleship extends Ship {
+    private int missileCount;
+    public Battleship(Point startPoint, Point endPoint) {
+        super(startPoint, endPoint);
+        this.missileCount = 10;
+    }
+
+    public int getMissileCount() {
+        return missileCount;
+    }
+
+    public void setMissileCount(int missileCount) {
+        this.missileCount = missileCount;
+    }
+
+    public boolean fireMissile(Point targetPoint) {
+        if (missileCount > 0) {
+            missileCount--;
+            return getShot(targetPoint);
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Battleship{" +
+                "missileCount=" + missileCount +
+                ", size=" + size +
+                ", hits=" + hits +
+                '}';
+    }
 }

@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b88757dd-24cd-44f6-a696-0c293624a60e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Battleship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Canoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CardinalPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Frigate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+    <list default="true" id="b88757dd-24cd-44f6-a696-0c293624a60e" name="Changes" comment="Creadas todas las clases e iniciado el ship y los CardinalPoints">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Battleship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Battleship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +51,16 @@
       <workItem from="1677779903733" duration="1073000" />
       <workItem from="1679651212183" duration="195000" />
       <workItem from="1679688394973" duration="6000" />
-      <workItem from="1679697243183" duration="811000" />
+      <workItem from="1679697243183" duration="1140000" />
     </task>
+    <task id="LOCAL-00001" summary="Creadas todas las clases e iniciado el ship y los CardinalPoints">
+      <created>1679698259601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679698259601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creadas todas las clases e iniciado el ship y los CardinalPoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creadas todas las clases e iniciado el ship y los CardinalPoints" />
   </component>
 </project>

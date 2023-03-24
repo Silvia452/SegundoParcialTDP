@@ -5,11 +5,12 @@ public class Ship {
     private Point endPoint;
     private CardinalPoints direction;
 
-    public Ship(int size, Point startPoint, Point endPoint) {
+    public Ship(Point startPoint, Point endPoint) {
         this.size = size;
         this.startPoint = startPoint;
         this.endPoint = endPoint;
         this.hits = 0;
+
         if (startPoint.getX() == endPoint.getX()) {
             if (startPoint.getY() < endPoint.getY()) {
                 this.direction = CardinalPoints.NORTH;
