@@ -55,14 +55,14 @@ public class Ship {
 
 
     public boolean get_shot(Point shot_point) {
-        if (startPoint.getX() == endPoint.getX()) {
+        if (startPoint != null && startPoint.getX() == endPoint.getX()) {
             int startY = startPoint.getY();
             int endY = endPoint.getY();
             if (shot_point.getX() == startPoint.getX() && shot_point.getY() >= startY && shot_point.getY() <= endY) {
                 hits++;
                 return true;
             }
-        } else if (startPoint.getY() == endPoint.getY()) {
+        } else if (startPoint != null && startPoint.getY() == endPoint.getY()) {
             int startX = startPoint.getX();
             int endX = endPoint.getX();
             if (shot_point.getY() == startPoint.getY() && shot_point.getX() >= startX && shot_point.getX() <= endX) {

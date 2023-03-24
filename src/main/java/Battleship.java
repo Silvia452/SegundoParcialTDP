@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Battleship extends Ship {
     private boolean[] compartments;
 
-    public Battleship() {
+    public Battleship(Point point, Point point1) {
         size = 5;
         hits = 0;
         compartments = new boolean[5];
