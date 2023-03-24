@@ -1,32 +1,26 @@
+import java.util.Arrays;
+
 public class Battleship extends Ship {
-    private int missileCount;
-    public Battleship(Point startPoint, Point endPoint) {
-        super(startPoint, endPoint);
-        this.missileCount = 10;
+    private boolean[] compartments;
+
+    public Battleship() {
+        size = 5;
+        hits = 0;
+        compartments = new boolean[5];
+        Arrays.fill(compartments, false);
     }
 
-    public int getMissileCount() {
-        return missileCount;
-    }
-
-    public void setMissileCount(int missileCount) {
-        this.missileCount = missileCount;
-    }
-
-    public boolean fireMissile(Point targetPoint) {
-        if (missileCount > 0) {
-            missileCount--;
-            return get_shot(targetPoint);
+    public boolean isSunk() {
+        for (boolean compartment : compartments) {
+            if (!compartment) {
+                return false;
+            }
         }
-        return false;
+        return true;
     }
 
-    @Override
-    public String toString() {
-        return "Battleship{" +
-                "missileCount=" + missileCount +
-                ", size=" + size +
-                ", hits=" + hits +
-                '}';
+    public void hit(int position) {
+        compartments[position] = true;
+        hits++;
     }
 }

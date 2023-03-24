@@ -28,6 +28,10 @@ public class Ship {
         }
     }
 
+    public Ship() {
+
+    }
+
     public int getSize() {
         return size;
     }
@@ -73,4 +77,21 @@ public class Ship {
         return hits >= size;
     }
 }
+
+/*public abstract class Ship {
+    protected int size;
+    protected int hits;
+
+    public boolean isSunk() {
+        return hits >= size;
+    }
+
+    public void hit() {
+        hits++;
+    }
+
+    public int getSize() {
+        return size;
+    }
+}*/
 
