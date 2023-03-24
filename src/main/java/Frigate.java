@@ -1,8 +1,7 @@
 public class Frigate extends Ship {
     private int torpedoCount;
 
-    public Frigate(Point startPoint, Point endPoint) {
-        super(startPoint, endPoint);
+    public Frigate() {
         this.torpedoCount = 5;
         size = 3;
         hits = 0;
