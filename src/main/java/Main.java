@@ -15,6 +15,15 @@ public class Main {
         User player1 = new User(true, createShips());
         User player2 = new User(true, createShips());
 
+        //AÑADIR PUERTOS
+        //Para agregar una arista con distancia entre dos puertos, podemos crear los puertos y la arista de la siguiente manera:
+        Puerto puerto1 = new Puerto("Puerto Madero");
+        Puerto puerto2 = new Puerto("Puerto de Rodas");
+        Conexion conexion = new Conexion(puerto1, puerto2, 10);
+        Grafo.agregarPuerto(puerto1);
+        Grafo.agregarPuerto(puerto2);
+        Grafo.agregarConexion(conexion);
+
         // Crear el scanner para leer las entradas del usuario
         Scanner scanner = new Scanner(System.in);
 

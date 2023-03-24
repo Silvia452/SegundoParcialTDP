@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b88757dd-24cd-44f6-a696-0c293624a60e" name="Changes" comment="Modificaciones">
-      <change afterPath="$PROJECT_DIR$/ejercicio8/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio8/src/main/java/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Grafo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Puerto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Battleship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Battleship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frigate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frigate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio8/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio8/src/main/java/Graph.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1677779903733" duration="1073000" />
       <workItem from="1679651212183" duration="195000" />
       <workItem from="1679688394973" duration="6000" />
-      <workItem from="1679697243183" duration="3113000" />
+      <workItem from="1679697243183" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="Creadas todas las clases e iniciado el ship y los CardinalPoints">
       <created>1679698259601</created>
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679699768365</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modificaciones">
+      <created>1679701063433</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679701063433</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
