@@ -48,28 +48,7 @@ public class Ship {
         return direction;
     }
 
-    public boolean isSunk() {
-        return hits >= size;
-    }
 
-    public boolean getShot(Point shotPoint) {
-        if (startPoint.getX() == endPoint.getX()) {
-            int startY = startPoint.getY();
-            int endY = endPoint.getY();
-            if (shotPoint.getX() == startPoint.getX() && shotPoint.getY() >= startY && shotPoint.getY() <= endY) {
-                hits++;
-                return true;
-            }
-        } else if (startPoint.getY() == endPoint.getY()) {
-            int startX = startPoint.getX();
-            int endX = endPoint.getX();
-            if (shotPoint.getY() == startPoint.getY() && shotPoint.getX() >= startX && shotPoint.getX() <= endX) {
-                hits++;
-                return true;
-            }
-        }
-        return false;
-    }
 
     public boolean get_shot(Point shot_point) {
         if (startPoint.getX() == endPoint.getX()) {

@@ -16,7 +16,7 @@ public class Battleship extends Ship {
     public boolean fireMissile(Point targetPoint) {
         if (missileCount > 0) {
             missileCount--;
-            return getShot(targetPoint);
+            return get_shot(targetPoint);
         }
         return false;
     }

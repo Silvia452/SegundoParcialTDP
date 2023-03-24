@@ -17,7 +17,7 @@ public class Frigate extends Ship {
     public boolean launchTorpedo(Point targetPoint) {
         if (torpedoCount > 0) {
             torpedoCount--;
-            return getShot(targetPoint);
+            return get_shot(targetPoint);
         }
         return false;
     }
