@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Grafo {
-    private static List<Puerto> vertices;
-    private static List<Conexion> aristas;
+    private static List<Puerto> vertices = new ArrayList<>();
+    private static List<Conexion> aristas = new ArrayList<>();
 
     public Grafo() {
         vertices = new ArrayList<>();
