@@ -11,7 +11,9 @@ public class Puerto {
 
     @Override
     public String toString() {
-        return nombre;
+        return "Puerto{" +
+                "nombre='" + nombre + '\'' +
+                '}';
     }
 }
 

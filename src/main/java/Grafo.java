@@ -25,4 +25,6 @@ public class Grafo {
     public List<Conexion> obtenerAristas() {
         return aristas;
     }
+
+
 }

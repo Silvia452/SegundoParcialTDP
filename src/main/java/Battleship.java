@@ -23,4 +23,13 @@ public class Battleship extends Ship {
         compartments[position] = true;
         hits++;
     }
+
+    @Override
+    public String toString() {
+        return "Battleship{" +
+                "compartments=" + Arrays.toString(compartments) +
+                ", size=" + size +
+                ", hits=" + hits +
+                '}';
+    }
 }
