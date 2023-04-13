@@ -26,5 +26,8 @@ public class Grafo {
         return aristas;
     }
 
-
+    public static void imprimirGrafo() {
+        System.out.println("Vertices: " + vertices);
+        System.out.println("Aristas: " + aristas);
+    }
 }
