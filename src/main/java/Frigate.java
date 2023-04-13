@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+
 public class Frigate extends Ship {
     private int torpedoCount;
+    private ArrayList<Ship> ships = new ArrayList<>();
 
     public Frigate(Point point, Point point1) {
         this.torpedoCount = 5;

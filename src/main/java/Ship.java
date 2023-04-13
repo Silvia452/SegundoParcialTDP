@@ -1,9 +1,12 @@
+import java.util.ArrayList;
+
 public class Ship {
     protected int size;
     protected int hits;
     private Point startPoint;
     private Point endPoint;
     private CardinalPoints direction;
+    private ArrayList<Ship> ships = new ArrayList<>();
 
     public Ship(Point startPoint, Point endPoint) {
         this.size = size;

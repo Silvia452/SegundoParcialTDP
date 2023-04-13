@@ -1,7 +1,9 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Battleship extends Ship {
     private boolean[] compartments;
+    private ArrayList<Ship> ships = new ArrayList<>();
 
     public Battleship(Point point, Point point1) {
         size = 5;
@@ -10,7 +12,7 @@ public class Battleship extends Ship {
         Arrays.fill(compartments, false);
     }
 
-    public boolean isSunk() {
+    public boolean is_sunk() {
         for (boolean compartment : compartments) {
             if (!compartment) {
                 return false;

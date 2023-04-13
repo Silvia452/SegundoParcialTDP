@@ -12,8 +12,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Bienvenido al juego de batalla naval");
 
-        User player1 = new User(true, createShips());
-        User player2 = new User(true, createShips());
+        User player1 = new User(true, createShipsPlayer1());
+        User player2 = new User(true, createShipsPlayer2());
 
         //AÑADIR PUERTOS
         //Para agregar una arista con distancia entre dos puertos, podemos crear los puertos y la arista de la siguiente manera:
@@ -66,11 +66,19 @@ public class Main {
         scanner.close();
     }
 
-    private static List<Ship> createShips() {
+    private static List<Ship> createShipsPlayer1() {
         List<Ship> ships = new ArrayList<>();
         ships.add(new Battleship(new Point(0, 0), new Point(0, 3)));
         ships.add(new Frigate(new Point(2, 0), new Point(2, 2)));
         ships.add(new Canoe(new Point(4, 0), new Point(4, 0)));
+        return ships;
+    }
+
+    private static List<Ship> createShipsPlayer2() {
+        List<Ship> ships = new ArrayList<>();
+        ships.add(new Battleship(new Point(2, 0), new Point(2, 3)));
+        ships.add(new Frigate(new Point(3, 0), new Point(2, 1)));
+        ships.add(new Canoe(new Point(4, 2), new Point(4, 2)));
         return ships;
     }
 
@@ -81,7 +89,6 @@ public class Main {
         int y = scanner.nextInt();
         return new Point(x, y);
     }
-
 
 
 }

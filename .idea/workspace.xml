@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b88757dd-24cd-44f6-a696-0c293624a60e" name="Changes" comment="Modificaciones en las aristas y los grafos" />
+    <list default="true" id="b88757dd-24cd-44f6-a696-0c293624a60e" name="Changes" comment="Modificaciones">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Battleship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Battleship.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +58,8 @@
       <workItem from="1680339492396" duration="669000" />
       <workItem from="1681031621939" duration="494000" />
       <workItem from="1681227648594" duration="504000" />
+      <workItem from="1681375095808" duration="543000" />
+      <workItem from="1681388950394" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="Creadas todas las clases e iniciado el ship y los CardinalPoints">
       <created>1679698259601</created>
@@ -119,7 +124,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681228090109</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Modificaciones en las aristas y los grafos">
+      <created>1681375212228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681375212228</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modificaciones">
+      <created>1681375224783</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681375224783</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Modificaciones">
+      <created>1681375328332</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681375328333</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,8 +167,8 @@
     <MESSAGE value="Clases de tipos de barcos y corregido algun error" />
     <MESSAGE value="Modificaciones y clase user creada" />
     <MESSAGE value="Modificaciones y parte ejercicio 5 modificada" />
-    <MESSAGE value="Modificaciones" />
     <MESSAGE value="Modificaciones en las aristas y los grafos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones en las aristas y los grafos" />
+    <MESSAGE value="Modificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones" />
   </component>
 </project>
