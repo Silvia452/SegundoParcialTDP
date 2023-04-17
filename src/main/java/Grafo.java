@@ -10,6 +10,7 @@ public class Grafo {
         aristas = new ArrayList<>();
     }
 
+
     public static void agregarPuerto(Puerto puerto) {
         vertices.add(puerto);
     }
